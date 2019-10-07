@@ -5,6 +5,8 @@ The library takes a dictionary of form {Sheet: {Cell: Value}} and updates the sp
 
 This function was created in support of the Model My Watershed Web application WikiWatersheds that models Best Management Practice (BMP) impacts to reducing water quality impacts. (https://modelmywatershed.org/)
 
+https://pypi.org/project/BMPxlsx/
+
 ### Example Function Run
 ```sh
 ## Function(dataDictionary, FileName)
