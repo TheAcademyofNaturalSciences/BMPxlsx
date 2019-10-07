@@ -41,7 +41,7 @@ writer.close()
 
 ### Installation
 
-BMPxlsx was written for Python version 2.7
+BMPxlsx was written and for Python version 2.7.15
 
 ```sh
 $ pip install BMPxslx
