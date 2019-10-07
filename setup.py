@@ -10,16 +10,16 @@ setup(
   author = 'Mike Campagna',
   author_email = 'msc94@drexel.edu',
   url = 'https://github.com/TheAcademyofNaturalSciences/BMPxlsx',
-  download_url = 'https://github.com/TheAcademyofNaturalSciences/BMPxlsxWriter/archive/v_01.tar.gz',
+  download_url = 'https://github.com/TheAcademyofNaturalSciences/BMPxlsx/archive/v_001.tar.gz',
   keywords = ['Excel', 'Write', 'XLSX', 'BMP'],
   install_requires=[
           'openpyxl',
       ],
   classifiers=[
-    'Development Status :: 3 - Alpha',      # "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state
-    'Intended Audience :: Developers',      # Define that your audience are developers
+    'Development Status :: 3 - Alpha', # "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state
+    'Intended Audience :: Developers',
     'Topic :: Software Development :: Build Tools',
-    'License :: OSI Approved :: MIT License',   # Again, pick a license
+    'License :: OSI Approved :: MIT License',
     'Programming Language :: Python :: 2.7'
   ],
 )
