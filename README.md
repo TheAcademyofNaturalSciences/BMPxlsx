@@ -1,2 +1,48 @@
 # BMPxlsx
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
 The library takes a dictionary of form {Sheet: {Cell: Value}} and updates the specified Excel file accordingly.
+
+This function was created in support of the Model My Watershed Web application WikiWatersheds that models Best Management Practice (BMP) impacts to reducing water quality impacts. (https://modelmywatershed.org/)
+
+### Example Function Run
+```sh
+## Function(dataDictionary, FileName)
+
+## Dictionary - {"SHEET": {"CELL": VALUE, "CELL": VALUE}}
+
+datadict = {
+'Sheet1': {'D1': 123.4, 'D2': 567.8},
+'Sheet2': {'D1': 123.4, 'D2': 567.8},
+'Sheet3': {'D1': 123.4, 'D2': 567.8},
+}
+
+## Full Path to File
+
+loc = os.getcwd()
+fnme = 'MMW_BMP_Spreadsheet_Tool(Skippack).xlsx'
+file = os.path.join(loc, fnme)
+
+## Run Function
+
+writer = BMPxlsx.Writer(file)
+input1 = {'Sheet1': {'D1': 13.4, 'D2': 47.8},
+        'Sheet2': {'D1': 23.4, 'D2': 57.8},
+        'Sheet3': {'D1': 33.4, 'D2': 67.8},
+    }
+input2 = {'Sheet1': {'D1': 23.4, 'D2': 57.8},
+        'Sheet2': {'D1': 33.4, 'D2': 67.8},
+        'Sheet3': {'D1': 43.4, 'D2': 77.8},
+    }
+writer.write(input1)
+writer.close()
+
+```
+
+### Installation
+
+BMPxlsx was written for Python version 2.7
+
+```sh
+$ pip install BMPxslx
+```
