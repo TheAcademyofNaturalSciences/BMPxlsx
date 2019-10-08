@@ -1,5 +1,9 @@
 from distutils.core import setup
 
+from os import path
+this_directory = path.abspath(path.dirname(__file__))
+with open(path.join(this_directory, 'README.md')) as f:
+    long_description = f.read()
 
 setup(
   name = 'BMPxlsx',
@@ -7,6 +11,8 @@ setup(
   version = '0.0.1',
   license='MIT',
   description = 'The library takes a dictionary of form {Sheet: {Cell: Value}} and updates the specified Excel file accordingly.',
+  long_description=long_description,
+  long_description_content_type='text/markdown',  
   author = 'Mike Campagna',
   author_email = 'msc94@drexel.edu',
   url = 'https://github.com/TheAcademyofNaturalSciences/BMPxlsx',
