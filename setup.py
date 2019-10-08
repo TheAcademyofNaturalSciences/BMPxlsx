@@ -9,15 +9,15 @@ from setuptools import setup, Extension
 setup(
 	name = 'BMPxlsx',
 	packages = ['BMPxlsx'],
-	version = '0.0.3',
+	version = '0.0.4',
 	license='MIT',
-	description = 'The library takes a dictionary of form {Sheet: {Cell: Value}} and updates the specified Excel file accordingly.',
+	description = 'The library takes a dictionary of form {Sheet: {Cell: Value}} and updates the specified Excel file accordingly. Visit GitHub for more information: https://github.com/TheAcademyofNaturalSciences/BMPxlsx',
 #	long_description=long_description,
 #	long_description_content_type='text/markdown',  
 	author = 'Mike Campagna',
 	author_email = 'msc94@drexel.edu',
 	url = 'https://github.com/TheAcademyofNaturalSciences/BMPxlsx',
-	download_url = 'https://github.com/TheAcademyofNaturalSciences/BMPxlsx/archive/v_003.tar.gz',
+	download_url = 'https://github.com/TheAcademyofNaturalSciences/BMPxlsx/archive/v_004.tar.gz',
 	keywords = ['Excel', 'Write', 'XLSX', 'BMP'],
 	install_requires=['openpyxl'],
 	classifiers=[
