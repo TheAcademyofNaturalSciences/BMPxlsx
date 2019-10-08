@@ -39,7 +39,7 @@ class Writer:
             for k, v in value.iteritems():
                 sheet[k] = v
         self.wb.save(self.file)
-        return Writer(self.file)
+        # return Writer(self.file)
 
     def close(self):
         self.wb.save(self.file)
