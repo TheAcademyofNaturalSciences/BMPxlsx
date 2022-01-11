@@ -9,7 +9,7 @@ from setuptools import setup, Extension
 setup(
 	name = 'BMPxlsx',
 	packages = ['BMPxlsx'],
-	version = '0.0.4',
+	version = '3.0.0',
 	license='MIT',
 	description = 'The library takes a dictionary of form {Sheet: {Cell: Value}} and updates the specified Excel file accordingly. Visit GitHub for more information: https://github.com/TheAcademyofNaturalSciences/BMPxlsx',
 #	long_description=long_description,
@@ -25,6 +25,9 @@ setup(
 		'Intended Audience :: Developers',
 		'Topic :: Software Development :: Build Tools',
 		'License :: OSI Approved :: MIT License',
-		'Programming Language :: Python :: 2.7'
+		'Programming Language :: Python :: 3.6',
+		'Programming Language :: Python :: 3.7',
+		'Programming Language :: Python :: 3.8',
+		'Programming Language :: Python :: 3.9'
 	],
 )

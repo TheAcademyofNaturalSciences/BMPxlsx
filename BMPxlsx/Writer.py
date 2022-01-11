@@ -34,9 +34,9 @@ class Writer:
         self.wb = load_workbook(self.file)
 
     def write(self, input):
-        for key, value in input.iteritems():
+        for key, value in input.items():
             sheet = self.wb[key]
-            for k, v in value.iteritems():
+            for k, v in value.items():
                 sheet[k] = v
         self.wb.save(self.file)
         # return Writer(self.file)
