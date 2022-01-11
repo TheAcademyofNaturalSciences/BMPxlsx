@@ -17,7 +17,7 @@ setup(
 	author = 'Mike Campagna',
 	author_email = 'msc94@drexel.edu',
 	url = 'https://github.com/TheAcademyofNaturalSciences/BMPxlsx',
-	download_url = 'https://github.com/TheAcademyofNaturalSciences/BMPxlsx/archive/v_004.tar.gz',
+	download_url = 'https://github.com/TheAcademyofNaturalSciences/BMPxlsx/archive/refs/tags/v_300.tar.gz',
 	keywords = ['Excel', 'Write', 'XLSX', 'BMP'],
 	install_requires=['openpyxl'],
 	classifiers=[
