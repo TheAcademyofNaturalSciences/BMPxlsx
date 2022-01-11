@@ -9,6 +9,9 @@ https://pypi.org/project/BMPxlsx/
 
 ### Example Function Run
 ```sh
+import BMPxlsx
+import os
+
 ## Function(dataDictionary, FileName)
 
 ## Dictionary - {"SHEET": {"CELL": VALUE, "CELL": VALUE}}
@@ -22,7 +25,7 @@ datadict = {
 ## Full Path to File
 
 loc = os.getcwd()
-fnme = 'MMW_BMP_Spreadsheet_Tool(Skippack).xlsx'
+fnme = 'test2.xlsx'
 file = os.path.join(loc, fnme)
 
 ## Run Function
@@ -43,7 +46,7 @@ writer.close()
 
 ### Installation
 
-BMPxlsx was written and for Python version 2.7.15
+BMPxlsx was written and for Python versions: 3.6, 3.7, 3.8 and 3.9.
 
 ```sh
 $ pip install BMPxslx
